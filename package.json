@@ -14,6 +14,7 @@
 		"@fontsource/fira-mono": "^5.0.8",
 		"@neoconfetti/svelte": "^1.0.0",
 		"@sveltejs/adapter-auto": "^2.1.1",
+		"@sveltejs/adapter-static": "^2.0.3",
 		"@sveltejs/kit": "^1.27.6",
 		"@types/cookie": "^0.5.4",
 		"@unocss/svelte-scoped": "^0.57.7",
