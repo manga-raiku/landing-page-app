@@ -4,7 +4,7 @@
   import "@fontsource/manrope"
 
   import { fade } from "svelte/transition"
-  import { slide } from "svelte/transition"
+  import appIcon from "$lib/images/app_icon.png"
   import { SvelteUIProvider } from "@svelteuidev/core"
 
   import { page } from "$app/stores"
@@ -70,7 +70,7 @@
     </button>
 
     <img
-      src="/src/lib/images/app_icon.png"
+      src={appIcon}
       width="50"
       height="50"
       alt="icon app"
