@@ -1,0 +1,20 @@
+.btn {
+  padding: 16px 24px;
+  @apply flex items-center justify-center;
+  &:hover {
+    filter: brightness(85%);
+  }
+  &-blue {
+    background-color: hsl(348, 100%, 81%);
+    color: hsl(368, 48%, 18%);
+  }
+  &-grey {
+    background-color: hsl(354, 19%, 19%);
+    color: hsl(354, 100%, 94%);
+  }
+  font-size: 0.95rem;
+  font-weight: 600;
+  gap: 0.5rem;
+  @apply rounded-100px;
+  transition: transform 0.4s var(--bezier-one), filter 0.4s var(--bezier-one);
+}
