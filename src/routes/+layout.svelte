@@ -59,7 +59,7 @@
     class="header fixed top-0 w-full h-min-50px py-4 px-6 md:px-8 bg-[hsl(348,9%,13.5%)] flex items-center z-9999"
   >
     <button
-      class="btn-hammer md:hidden text-1.5em mr-6"
+      class="btn-hammer md:!hidden text-1.5em mr-6"
       on:click={() =>
         (opening =
           !opening)}
@@ -116,7 +116,7 @@
 <slot />
 
 <style lang="scss">
-  :global(body) {
+:global(body) {
   --bezier-one: cubic-bezier(0.25, 0.46, 0.45, 0.94);
   background-color: hsl(292, 10%, 11%);
   font-family: Manrope;
